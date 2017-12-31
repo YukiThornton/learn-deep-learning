@@ -1,2 +1,4 @@
 app/output/*
 !app/output/.gitkeep
+app/dataset/*.gz
+app/dataset/*.pkl
