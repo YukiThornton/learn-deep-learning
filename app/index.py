@@ -11,12 +11,26 @@
 # step_function.draw()
 # sigmoid.draw()
 # relu.draw()
+#
 # from ch03 import neuralnet_forward
 # import numpy as np
 # neuralnet_forward.forward_and_print(np.array([1.0, 0.5]))
+#
 # from ch03.mnist_show import img_save, get_any_image
 # img_save(get_any_image())
-from ch03.neuralnet_mnist import execute
-execute()
+#
+# from ch03.neuralnet_mnist import execute, batch
+# execute()
+# batch(100)
+
+# from ch04.gradient import create_gradient_graph, create_descent_graph
+# create_gradient_graph()
+# create_descent_graph()
+
+# from ch04.gradient_simplenet import execute
+# execute()
+
+from ch04.train_neuralnet import train
+train()
 
 print("Done!")
